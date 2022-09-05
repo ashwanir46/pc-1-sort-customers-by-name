@@ -55,9 +55,15 @@ private String city;
         this.city = city;
     }
 
+
     @Override
     public String toString() {
-        return "";
+        return "Customer{" +
+                "customerId=" + customerId +
+                ", customerName='" + customerName + '\'' +
+                ", customerGender='" + customerGender + '\'' +
+                ", isSeniorCitizen=" + isSeniorCitizen +
+                ", city='" + city + '\'' +
+                '}';
     }
-
 }
